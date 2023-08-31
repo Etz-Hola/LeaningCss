@@ -1,0 +1,243 @@
+.container{
+    display: flex;
+    background-color: bisque;
+    padding: 10px;
+}
+
+.container > div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: aqua;
+    text-align: center;
+}
+
+ 
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: green;
+    padding: 10px;
+}
+
+.flexContainer > div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+.flexRevers{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.flexRevers > div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: burlywood;
+    text-align: center;
+}
+
+
+.columflexRevers{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+}
+
+.columflexRevers > div{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: indianred;
+    text-align: center;
+}
+
+
+
+/* FLEX WRAP */
+.wrapCon{
+    display: flex;
+    background-color: darkslateblue;
+    padding: 10px;
+}
+
+.wrapCon > div {
+    background-color: darkkhaki;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+#noWrap{
+    flex-wrap: nowrap;
+}
+
+
+.wrapCon{
+    display: flex;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+.wrap-reverse > div {
+    background-color: tan;
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+}
+
+#wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+
+/* FLEX JUSTIFY CONTENT */
+.justifyCon{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 5px;
+}
+
+.justifyCon > div{
+    background-color: blue;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+}
+
+/* FLEX JUSTIFY CONTENT */
+.justifyEnd1{
+    display: flex;
+    justify-content: flex-end;
+    background-color: bisque;
+    padding: 5px;
+}
+
+.justifyEnd1 > div{
+    background-color: gray;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+}
+
+
+/* FLEX JUSTIFY CONTENT */
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    background-color: indianred;
+    padding: 5px;
+}
+
+.flex-start > div{
+    background-color: teal;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+}
+
+
+
+/* FLEX JUSTIFY CONTENT */
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    background-color: teal;
+    padding: 5px;
+}
+
+.flex-end > div{
+    background-color: khaki;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+}
+
+
+
+/* FLEX JUSTIFY CONTENT */
+.space-around{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    padding: 5px;
+}
+
+.space-around > div{
+    background-color: firebrick;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 5px;
+    height: 400px;
+}
+.center > div {
+    background-color: antiquewhite;
+    width: 130px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.flex-end{
+    display: flex;
+    align-items: flex-end;
+    background-color: hotpink;
+    padding: 5px;
+    height: 400px;
+}
+.flex-end > div {
+    background-color: antiquewhite;
+    width: 130px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+.firstbaseline{
+    display: flex;
+    align-items: first baseline;
+    background-color: darkcyan;
+    padding: 5px;
+    height: 400px;
+}
+.firstbaseline > div {
+    background-color: green;
+    width: 130px;
+    line-height: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+
+
+.container11{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 10px;
+    
+}

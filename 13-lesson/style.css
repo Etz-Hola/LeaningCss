@@ -1,0 +1,76 @@
+body{
+    background-color: darksalmon;
+}
+
+/* PSEUDO CLASSES (:) */
+/* .psClass {
+    text-align: center;
+} */
+
+/* a:link {
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+} */
+/* 
+a:visited {
+    color: brown;
+    font-size: 40px;
+    border: 2px solid #333;
+} */
+
+ /* :active {
+    background-color: black;
+    border-radius: 20px;
+    color: green;
+    border: 2px solid yellow;
+}  */
+
+/* a:visited {
+    color: navajowhite;
+    font-size: 40px;
+    border: 2px solid black;
+}
+
+button {
+    background-color: aqua;
+    padding: 5px;
+}
+
+button :focus {
+    border: 2px solid salmon;
+}
+
+button:hover {
+    background-color: blue;
+    padding: 10px;
+} */
+
+/* a:link {
+    text-decoration: none;
+    color: aliceblue;
+} */
+
+/* a:hover {
+    background-color: darkcyan;
+} */
+
+/* .box >p:nth-child(even) {
+    background: rebeccapurple;
+    font-size: 30px;
+} */
+
+/* PSEUDO ELEMENT (::) */
+
+p::first-letter {
+    color: brown;
+    font-size: xx-large;
+}
+.box2 > p::before {
+content: "Ola";
+}
+
+.box3 > p::after {
+    color: bisque;
+    content: "=";
+}

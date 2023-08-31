@@ -1,0 +1,50 @@
+body{
+    background-color: blanchedalmond;
+}
+/* example 1 */
+/* .gdBox{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 1rem; 
+ } */
+
+/* example 2 */
+.gdBox{
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-auto-rows: minmax();
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.nested > div{
+    background-color: chocolate;
+    padding: 10px;
+}
+
+.nested >div:nth-child(odd) {
+    background-color: darkgreen;
+}
+
+.gdBox > div{
+    background-color: #c9ecec;
+    padding: 1rem;
+}
+.gdBox >div:nth-child(even) {
+    background-color: blueviolet;
+
+}
+img {
+    border: 2px solid yellow;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    align-items: center;
+    justify-items: center;
+
+}

@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800&family=Syne:wght@400;500;600;700&family=Inter:wght@300;400;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Syne:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Syne:wght@400;500;600;700&display=swap');
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    /* outline: none; */
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
+
+html{
+    font-size: 65.2%;
+    overflow-x: hidden;
+}
+body {
+    background-color: beige;
+    font-family: 'sans-serif', sans-serif;
+}
+
+.sticky .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 8rem;
+    z-index: 1;
+    box-shadow: 0, 1.2rem, 3.2rem rgba(0, 0, 0, 0.30);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.header {
+    background-color: #e8eded;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+}
+
+.headerText {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.mainNaveList {
+    color: #1c1c1c;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 3.2rem;
+    font-size: 2px;
+    
+}
+
+
+ .mainNaveLink:link, .mainNaveLink:visited{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1c1c1c;
+    width: 100vw;
+    
+}
+ .mainNaveLink:hover, .mainNaveLink:active{
+    color: #6fcade;
+    text-decoration: underline;
+}
+
+
+
+.navBtn {
+    display: flex;
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    gap: 1rem;
+}
+
+.btn, .btn:link, .btn:visited {
+    width: 160px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-decoration: none;
+    border: none;
+}
+
+.loginBtn:link, .loginBtn:visited {
+    background-color: #9fb7b9;
+    color: #f6f6f6;
+}
+
+.loginBtn:hover, .loginBtn:active {
+    background-color: #b7ced1;
+    color: #E8EDED;
+}
+
+.signupBtn:link, .signupBtn:visited {
+    background-color: inherit;
+    border: 1px solid #1c1c1c;
+}
+
+.signupBtn:hover, .signupBtn:active {
+    background-color: #f5f2ec;
+}
+
+
+.heroSection{
+    background-image: url(/img/hero.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25rem;
+    text-align: center;
+}
+
+.heroContainer{
+    height: 519px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+} 
+
+
+.heroTitle{
+    margin-bottom: 10rem;
+    /* margin-top: 25rem; */
+    font-size: 100px;
+}
+
+.heroSubTitle{
+    margin-bottom: 2rem;
+    font-size: 32px;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 400;
+    color: #1C1C1C;
+}
+
+
+
+.heroBtn{
+    font-family: 'Syne', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: normal;
+}
+
+.heroBtn .btn{
+    text-decoration: none;
+    color: #F6F6F6;
+    border-radius: 10px;
+    background: #9fb7b9;
+    color: #f6f6f6;
+    width: 346px;
+    height: 65px;
+    padding: 10px;
+}
+
+
+.aboutSection1{
+    padding: 0 4.8rem;
+    margin-bottom: 141px;
+    width: 100vw;
+}
+
+.aboutContainer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+}
+.aboutContainer1 > .heroText1{
+    color: #000;
+    font-family: Sofia Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutContainer1 > .heroTitle1{
+    color: #1C1C1C;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aboutContainer1 > .heroSubTitle1{
+    color: #906464;
+    font-family: Sofia Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.aboutContainer2 > .gridCon {
+    background-color: #5D7BE7;
+    display: grid;
+    width: 1358px;
+    height: 611px;
+    border-radius: 20px;
+    grid-template-columns: 1fr 1fr;
+    /* grid-column-gap: 3rem; */
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+
+.aboutContainer2 .gridItem{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.aboutContainer2 .gridItemText{
+    color: #1c1c1c;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.aboutContainer2 .gridItemText h3{
+    font-family: "syne", "sans-serif";
+    font-size: 32px;
+    font-weight: 700;
+    width: 468px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.aboutContainer2 .gridItemText p {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    width: 574px;
+    margin-bottom: 152px;
+}
+
+
+.aboutContainer2 .gridItem button{
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #F6F6F6;
+    width: 350px;
+    height: 55px;
+    margin-top: 29px;
+    border-radius: 10px;
+}
+
+.aboutCon3{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 1358px;
+    margin-left: auto;
+    margin-right: auto;
+      
+}
+
+/* .team {
+    background-color: #A6EBF4;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 831.104px;
+    padding: 107.122px 51.698px 44.91px 51.104px;
+    justify-content: center;
+    align-items: center;
+} */
+
+.myTeam {
+    border: 1px solid black;
+
+    display: flex;
+    
+    text-align: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    
+    
+}
+
+.flex-con{
+    display: flex;
+    column-gap: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+}
+
+.flex-con > .box1, .box2{
+    border-radius: 20px;
+    width: 679px;
+    height: 829px;
+}
+
+
+.flex-con > .box1{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 45px;
+    gap: 20px;
+}
+.textH3{
+    color: #1C1C1C;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.textP{
+    color: #2B2525;
+    font-family: Sofia Sans;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+
+.flex-con > .box2{
+    background-color: #EE3C5C;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    padding: 45px;
+    gap: 20px;
+    color: #1C1C1C;
+    font-family: Inter;
+    font-size: 40px;
+}
+
+.btnSaving{
+    display: flex;
+    width: 255px;
+    height: 55px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.box2 > .percentage {
+    font-size: 180px;
+    font-weight: 180px;
+}
+
+
+.footerSection{
+    background-color: #1c1c1c;
+    background-image: url(./img/backgrand.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+    width: 100vw;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "syne", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid-column-gap: 89px;
+    padding: 152px 831px 164px 100px;
+}
+
+
+.footerSection .gridItem{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footerSection h4 {
+    font-family: "roboto", sans-serif;
+    margin-bottom: 55px;
+}
+
+.footerSection .footerLink{
+    width: 134ps;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: "inter" sans-serif;
+}

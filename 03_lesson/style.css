@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(241, 49, 81);
+}
+h3{
+    border: 2px dotted black;
+    padding: 40px;
+    width: 50px;
+}
+h4{
+    border-bottom: 4px double white;
+}
+h5{
+    border: 15px  groove yellowgreen;
+    padding: 50px;
+    width: 50px;
+}
+h2{
+    border: 15px ridge yellowgreen;
+    padding: 50px;
+    width: 50px;;
+}
+.dash{
+    border: 5px dashed yellowgreen;
+    padding: 50px;
+    width: 50px;;
+}
+/* .all{
+    border-style: solid dotted double dashed;
+    padding: 10px;
+    width: 50px;
+    color: aqua;
+    background: blue;
+} */
+.all{
+    border-top: 5px groove gray;
+    border-bottom: 5px inset yellow;
+    border-right: 5px dotted red;
+    border-left: dashed green;
+    padding: 10px;
+    width: 50px;
+}
+.try {
+    border-top: 5px groove gray;
+    border-bottom: 5px inset yellow;
+    border-right: 5px dotted red;
+    border-left: dashed green;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+   
+}
+
+img {
+    border: 2px solid yellow;
+    /* width: 200px; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+}

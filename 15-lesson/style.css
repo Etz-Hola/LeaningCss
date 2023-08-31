@@ -1,0 +1,77 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(240, 240, 240);
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 50px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+
+.icon:hover{
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.facebookIcon {
+    color: #1a6ed8;
+}
+.fb:hover{
+    background: #1a6ed8;
+}
+
+.twitterIcon {
+    color: #1da1f2;
+}
+.twt:hover{
+    background: #1da1f2;
+}
+
+.linkedinIcon {
+    color: #0077b5;
+}
+.lnk:hover{
+    background: #0077b5;
+}
+
+.githubIcon {
+    color: #000;
+}
+.git:hover{
+    background: #000;
+}
+
+.youtubeIcon {
+    color: #fe0000;
+}
+.yut:hover{
+    background: #fe0000;
+}
+
+RESO
+@media only screen and (min-width: 280px) and (max-width:991px){
+    .main{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.container .box1 {
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+}
+.box1{
+    border: 3px solid black;
+    width: 50px;
+    padding-left: 100px;
+    /* margin-bottom: 100px; */
+}
+.box2{
+    border: 3px solid black;
+    width: 150px;
+    /* margin: 150px 50px 500px 700px; */
+    margin: auto;
+}

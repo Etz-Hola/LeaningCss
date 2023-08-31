@@ -1,0 +1,42 @@
+.absolut{
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+.fixed{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+.static{
+    background-color: yellow;
+    position: static;
+    top: 0;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+
+
+/* .static{
+    background-color: brown;
+    position: fixed;
+    border: 1px solid black;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}  */
+
+
+/* #relative{
+    background-color: blueviolet;
+    border: 1px solid;
+    position: relative;
+    left: 30px;
+} */

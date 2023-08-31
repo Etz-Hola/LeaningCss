@@ -1,0 +1,182 @@
+html{
+    font-size: 16px;
+}
+
+.animationCon {
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.flex-con{
+    border: 1px solid black;
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    column-gap: 20px;
+    width: 50%;
+    animation: slide;
+    -webkit-animation: slide;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.flex-con > .box {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+    font-size: 10rem;
+    text-align: center;
+
+}
+ 
+.flex-con > .box:hover {
+    animation: colorChanger;
+    animation-duration: 10s;
+    -webkit-animation: colorChanger;
+    animation: 10s;
+    -animation-iteration-count: infinite;
+}
+
+
+.animationCon2 {
+    border: 1px dashed black;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 40px;
+    grid-column-gap: 40px;
+
+}
+
+.animationCon2 .gridItem {
+    padding: 2px;
+    height: 150px;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.hello{
+    background-color: yellow;
+    animation: colorChanger2;
+    -webkit-animation: colorChanger2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+.gridItem .circleMe{
+    background-color: brown;
+    border: 1px solid black;
+    display: grid;
+    place-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;  
+    animation: rotate;
+    animation: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite; 
+}
+
+.animationCon3 {
+    display: flex;
+    padding: 20px;
+    gap: 4rem;
+    margin-top: 40px;
+}
+
+.animationCon3 .flexItem {
+    height: 350px;
+    width: 350px;
+    margin: auto;
+}
+
+.animationCon3 .opacity{
+    background-color: blue;
+    color: white;
+    font-size: 5rem;
+    display: grid;
+    place-content: center;
+    animation: opacity 10s ease-in-out infinite;
+}
+
+.animationCon3 .empty{
+    background-color: black;
+    animation: rotate2 10s ease infinite;
+}
+
+.animationCon3 .scale{
+    background-color: brown; 
+    color: bisque;
+    font-size: 5rem;
+    display: grid;
+    place-content: center;
+    animation: scaling 5s ease-in-out 0s infinite;
+}
+
+
+@keyframes slide {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes colorChanger {
+    from {
+        background-color: green;
+    }
+    to {
+        background-color: aqua;
+    }
+}
+
+@keyframes colorChanger2 {
+    0% {
+        background-color: antiquewhite;
+    }
+    25% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: tomato;
+    }
+    100% {
+        background-color: yellow;
+    }
+
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes opacity {
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes rotate2 {
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+@keyframes scaling {
+    100% {
+        scale: 0;
+    }
+}
